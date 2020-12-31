@@ -60,11 +60,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
- var sum =a+b+c;
- var product =a*b*c;
+ var sumn =sum(sum(a,b)[0],c)[0];
+ var product =multiply(multiply(a,b)[0],c)[0];
  var str1="4 and 7 and 5 sum to 16."
  var str2="The product of 4 and 7 and 5 is 140.";
- var rArray=[sum,product,str1,str2];
+ var rArray=[sumn,product,str1,str2];
  return rArray;
 }
 
